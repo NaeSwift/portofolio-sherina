@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sherina Zenika | Information Systems Student</title>
+  <meta name="description" content="Personal profile of Sherina Zenika, an Information Systems student from Pontianak learning Python and web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar" id="top">
+    <a href="#top" class="brand">Sherina Zenika</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <nav id="navLinks" class="nav-links">
+      <a href="#tentang">About</a>
+      <a href="#riwayat">Experience</a>
+      <a href="#kontak">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="place">Pontianak, right on the equator</p>
+        <h1>Sherina Zenika</h1>
+        <p class="tagline">Information Systems Student | Enthusiast of Web Development &amp; UI/UX</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#kontak">Contact me</a>
+          <a class="btn btn-ghost" href="#tentang">Get to know me</a>
+        </div>
+      </div>
+      <figure class="photo" id="photo">
+        <img id="photoImg" src="assets/foto-profil.jpg" alt="Profile photo of Sherina Zenika" width="420" height="420">
+        <span class="photo-fallback" aria-hidden="true">SZ</span>
+      </figure>
+
+      <div class="equator" aria-hidden="true">
+        <span class="equator-label">0°00′00″</span>
+        <span class="sun" id="sun"></span>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME -->
+    <section class="section" id="tentang">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <div class="prose">
+          <p>Hi, I'm Sherina, from Pontianak, and I'm currently studying Information Systems. I chose this major because I enjoy computer science and business, and because of its broad career prospects.</p>
+          <p>Right now I'm learning programming fundamentals with Python, from functions to simple programs like a cashier app. I'm also starting to build websites with HTML, CSS, and JavaScript.</p>
+          <h3>Education history</h3>
+          <ul class="edu">
+            <li><span class="yr">2026 &ndash; Present</span><span>Active student of Information Systems, Universitas Tanjungpura (UNTAN)</span></li>
+            <li><span class="yr">2023 &ndash; 2026</span><span>SMA Gembala Baik</span></li>
+            <li><span class="yr">2020 &ndash; 2023</span><span>SMP Gembala Baik (Regular)</span></li>
+            <li><span class="yr">2014 &ndash; 2020</span><span>SD Gembala Baik 1</span></li>
+            <li><span class="yr">2013 &ndash; 2014</span><span>TK Gembala Baik</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Currently learning</h3>
+          <ul class="chips">
+            <li>Python</li>
+            <li>HTML &amp; CSS</li>
+            <li>JavaScript</li>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Google Colab</li>
+          </ul>
+          <h3>Interests in IT</h3>
+          <p class="muted">Web development, programming, and using technology to support business.</p>
+          <h3>Hobbies</h3>
+          <ul class="chips">
+            <li>Singing</li>
+            <li>Listening to music</li>
+            <li>Playing Mobile Legends</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EXPERIENCE (empty for now, fill it in script.js) -->
+    <section class="section alt" id="riwayat">
+      <h2>Experience &amp; history</h2>
+      <ol class="timeline" id="timeline"></ol>
+      <p class="empty" id="emptyState">No achievements to show for now. This space is ready for what comes next.</p>
+    </section>
+  </main>
+
+  <!-- 4. CONTACT & SOCIAL MEDIA -->
+  <footer class="section footer" id="kontak">
+    <h2>Let's connect</h2>
+    <p class="muted">Open to meeting new people, teamwork, and learning opportunities.</p>
+    <ul class="links">
+      <li><a href="mailto:sherinazenika@gmail.com">Email</a></li>
+      <li><a href="https://www.instagram.com/scyrinn._" target="_blank" rel="noopener">Instagram @scyrinn._</a></li>
+      <li><a href="https://github.com/NaeSwift" target="_blank" rel="noopener">GitHub NaeSwift</a></li>
+    </ul>
+    <p class="copy">&copy; <span id="year">2026</span> Sherina Zenika.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
